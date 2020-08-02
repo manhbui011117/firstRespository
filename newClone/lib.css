@@ -1,0 +1,42 @@
+
+.col{
+    box-sizing: border-box;
+    
+    text-align: left;
+}
+.col.left{
+    margin-right: 12px;
+    flex: 0 0 60%;
+}
+.col.right{
+    margin-left: 12px;
+    flex: 0 0 40%;
+}
+
+@media screen and (max-width: 1200px){
+    .col.left{
+        margin: 0;
+        flex: 0 0 100%;
+    }
+    .col.right{
+        margin: 0;
+        flex: 0 0 100%;
+    }
+    .content__container{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+.date{
+    opacity: 0.7;
+}
+
+
+
+/* effect */
+.shadow{
+    box-shadow: 2px 4px 8px 5px rgba(139, 139, 139, 0.404);
+}
